@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kotha Pentaiah & Bodla Ramachandraiah Banaras Silk Palace | Est. 1969 Secunderabad</title>
+    <!-- Google Fonts: Cormorant Garamond, Playfair Display, and Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for subtle UI icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        maroon: {
+                            DEFAULT: '#6B1D2F',
+                            dark: '#4D1220',
+                            light: '#8A283F',
+                            tint: '#F9F1F3'
+                        },
+                        gold: {
+                            DEFAULT: '#C5A059',
+                            dark: '#9E7B36',
+                            light: '#DFC388',
+                            pale: '#F5EEDB'
+                        },
+                        ivory: {
+                            DEFAULT: '#FAF6F0',
+                            dark: '#F1E9DD',
+                            card: '#FFFFFF'
+                        },
+                        charcoal: {
+                            DEFAULT: '#2A211E',
+                            muted: '#5C4F4A'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', '"Cormorant Garamond"', 'Georgia', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'heritage': '0 10px 30px -5px rgba(107, 29, 47, 0.08), 0 4px 12px -2px rgba(197, 160, 89, 0.12)',
+                        'gold-glow': '0 4px 20px rgba(197, 160, 89, 0.25)',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-ivory text-charcoal font-sans antialiased selection:bg-maroon selection:text-ivory overflow-x-hidden">
+
+    <!-- Top Heritage Announcement Bar -->
+    <div class="bg-maroon-dark text-gold-pale text-xs sm:text-sm py-2.5 px-4 border-b border-gold/30">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1 text-center">
+            <p class="tracking-wide font-medium">
+                <span class="text-gold font-semibold">EST. 1969</span> &bull; Over 55 Years of Authentic Handlooms in General Bazaar, Secunderabad
+            </p>
+            <div class="flex items-center gap-4 text-xs">
+                <span class="inline-flex items-center gap-1.5 text-gold-light">
+                    <i class="fa-solid fa-certificate text-gold"></i> 100% Silk Mark Certified
+                </span>
+                <span class="hidden md:inline text-gold/40">|</span>
+                <a href="#booking" class="hidden md:inline underline decoration-gold/60 hover:text-white transition">Wholesale &amp; Retail Inquiries</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Navigation Header -->
+    <header class="sticky top-0 z-40 bg-ivory/95 backdrop-blur-md border-b border-gold/30 shadow-sm transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20 sm:h-24">
+                <!-- Brand Identity -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <!-- Custom Temple Zari Emblem SVG -->
+                    <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-maroon flex items-center justify-center border border-gold shadow-sm shrink-0 group-hover:bg-maroon-dark transition">
+                        <svg viewBox="0 0 48 48" class="w-7 h-7 text-gold" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M24 4L42 24L24 44L6 24L24 4Z" />
+                            <path d="M24 11L35 24L24 37L13 24L24 11Z" stroke-dasharray="2 2"/>
+                            <circle cx="24" cy="24" r="4" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="block font-serif text-base sm:text-xl lg:text-2xl font-bold text-maroon leading-tight tracking-tight">
+                            Kotha Pentaiah &amp; Bodla Ramachandraiah
+                        </span>
+                        <div class="flex items-center gap-2 mt-0.5">
+                            <span class="text-[11px] sm:text-xs font-semibold uppercase tracking-[0.16em] text-gold-dark">
+                                Banaras Silk Palace &bull; KPBR
+                            </span>
+                            <span class="hidden sm:inline-block text-[10px] px-2 py-0.5 rounded-full bg-gold-pale text-maroon font-semibold border border-gold/40">
+                                Est. 1969
+                            </span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-charcoal">
+                    <a href="#collections" class="hover:text-maroon transition py-2">Collections</a>
+                    <a href="#heritage" class="hover:text-maroon transition py-2">Our Legacy</a>
+                    <a href="#services" class="hover:text-maroon transition py-2">Bridal &amp; Services</a>
+                    <a href="#visit" class="hover:text-maroon transition py-2">Visit Store</a>
+                    <a href="#booking" class="ml-2 px-5 py-2.5 rounded-xl bg-maroon text-ivory font-semibold border border-gold/50 hover:bg-maroon-dark shadow-sm hover:shadow-gold-glow transition flex items-center gap-2">
+                        <span>Book Bridal Consultation</span>
+                        <i class="fa-solid fa-arrow-right text-xs text-gold-light"></i>
+                    </a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" aria-label="Toggle Menu" class="lg:hidden p-2.5 rounded-xl border border-gold/40 text-maroon hover:bg-gold-pale/60 transition">
+                    <i class="fa-solid fa-bars text-lg"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Navigation -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-ivory border-t border-gold/30 px-4 pt-3 pb-6 space-y-2 shadow-lg">
+            <a href="#collections" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium text-charcoal hover:bg-gold-pale/50 hover:text-maroon">Collections Catalog</a>
+            <a href="#heritage" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium text-charcoal hover:bg-gold-pale/50 hover:text-maroon">Heritage Since 1969</a>
+            <a href="#services" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium text-charcoal hover:bg-gold-pale/50 hover:text-maroon">Bridal &amp; Shopping Services</a>
+            <a href="#visit" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium text-charcoal hover:bg-gold-pale/50 hover:text-maroon">General Bazaar Store &amp; Socials</a>
+            <div class="pt-2">
+                <a href="#booking" class="mobile-nav-link block w-full text-center px-5 py-3.5 rounded-xl bg-maroon text-ivory font-semibold border border-gold">
+                    Book Bridal / Video Consultation
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden bg-gradient-to-b from-ivory-dark/70 via-ivory to-ivory pt-10 pb-16 sm:pt-16 sm:pb-24 border-b border-gold/25">
+        <!-- Decorative Background Mandala Watermark SVG -->
+        <div class="pointer-events-none absolute -right-24 -top-24 w-[460px] h-[460px] opacity-[0.06] text-maroon">
+            <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="1">
+                <circle cx="100" cy="100" r="95"/>
+                <circle cx="100" cy="100" r="80" stroke-dasharray="4 4"/>
+                <circle cx="100" cy="100" r="62"/>
+                <path d="M100 5 L120 80 L195 100 L120 120 L100 195 L80 120 L5 100 L80 80 Z"/>
+                <path d="M33 33 L100 72 L167 33 L128 100 L167 167 L100 128 L33 167 L72 100 Z"/>
+            </svg>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+                <!-- Hero Left Copy -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-gold-pale border border-gold/50 text-maroon text-xs sm:text-sm font-semibold tracking-wide">
+                        <span class="w-2 h-2 rounded-full bg-maroon"></span>
+                        <span>General Bazaar Landmark &bull; Secunderabad</span>
+                    </div>
+
+                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-charcoal leading-[1.14] tracking-tight">
+                        55+ Years of <span class="text-maroon italic">Weaving Traditions</span> &amp; Timeless Elegance
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-charcoal-muted leading-relaxed max-w-2xl">
+                        Trusted across three generations for milestone weddings and sacred celebrations. Discover an unmatched curation of <strong class="text-charcoal font-semibold">Silk Mark certified</strong> Kanchipuram, Banaras, Gadwal, and Dharmavaram drapes under one roof at honest wholesale and retail prices.
+                    </p>
+
+                    <!-- Dual CTAs -->
+                    <div class="flex flex-col sm:flex-row gap-3.5 pt-2">
+                        <a href="#collections" class="px-7 py-4 rounded-xl bg-maroon text-ivory font-semibold text-center hover:bg-maroon-dark border border-gold/60 shadow-heritage transition flex items-center justify-center gap-2.5">
+                            <span>Explore Collections</span>
+                            <i class="fa-solid fa-layer-group text-gold-light"></i>
+                        </a>
+                        <a href="#booking" class="px-7 py-4 rounded-xl bg-white text-maroon font-semibold text-center hover:bg-gold-pale/60 border border-gold transition flex items-center justify-center gap-2.5">
+                            <i class="fa-solid fa-calendar-check text-gold-dark"></i>
+                            <span>Book Private Bridal Styling</span>
+                        </a>
+                    </div>
+
+                    <!-- Trust Indicators Strip -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 border-t border-gold/30">
+                        <div class="p-3 rounded-xl bg-white/80 border border-gold/25">
+                            <p class="font-serif text-xl sm:text-2xl font-bold text-maroon">Est. 1969</p>
+                            <p class="text-xs text-charcoal-muted mt-0.5">55+ Years Legacy</p>
+                        </div>
+                        <div class="p-3 rounded-xl bg-white/80 border border-gold/25">
+                            <p class="font-serif text-xl sm:text-2xl font-bold text-maroon">100% Pure</p>
+                            <p class="text-xs text-charcoal-muted mt-0.5">Silk Mark Certified</p>
+                        </div>
+                        <div class="p-3 rounded-xl bg-white/80 border border-gold/25">
+                            <p class="font-serif text-xl sm:text-2xl font-bold text-maroon">Direct Value</p>
+                            <p class="text-xs text-charcoal-muted mt-0.5">Wholesale &amp; Retail</p>
+                        </div>
+                        <div class="p-3 rounded-xl bg-white/80 border border-gold/25">
+                            <p class="font-serif text-xl sm:text-2xl font-bold text-maroon">3+ Gens</p>
+                            <p class="text-xs text-charcoal-muted mt-0.5">Family Patronage</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Right Showcase Card (Bespoke Woven Zari Art Card) -->
+                <div class="lg:col-span-5">
+                    <div class="relative rounded-2xl p-2 bg-gradient-to-br from-gold via-gold-light to-gold-dark shadow-heritage">
+                        <div class="rounded-xl bg-maroon text-ivory p-6 sm:p-8 relative overflow-hidden">
+                            <!-- Intricate SVG Zari Pallu Border Pattern -->
+                            <svg class="w-full h-12 text-gold mb-5 opacity-90" viewBox="0 0 400 48" fill="none">
+                                <line x1="0" y1="6" x2="400" y2="6" stroke="currentColor" stroke-width="1.5"/>
+                                <line x1="0" y1="42" x2="400" y2="42" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M0 24 L20 10 L40 24 L60 10 L80 24 L100 10 L120 24 L140 10 L160 24 L180 10 L200 24 L220 10 L240 24 L260 10 L280 24 L300 10 L320 24 L340 10 L360 24 L380 10 L400 24" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M0 24 L20 38 L40 24 L60 38 L80 24 L100 38 L120 24 L140 38 L160 24 L180 38 L200 24 L220 38 L240 24 L260 38 L280 24 L300 38 L320 24 L340 38 L360 24 L380 38 L400 24" stroke="currentColor" stroke-width="1.5"/>
+                            </svg>
+
+                            <div class="space-y-4">
+                                <span class="inline-block text-xs uppercase tracking-[0.2em] text-gold-light font-semibold">
+                                    Heirloom Bridal &amp; Festive Vault
+                                </span>
+                                <h2 class="font-serif text-2xl sm:text-3xl font-semibold leading-snug text-white">
+                                    M/s. Kotha Pentaiah &amp; Bodla Ramachandraiah
+                                </h2>
+                                <p class="text-sm text-ivory/85 leading-relaxed">
+                                    From pure Katan Banarasi brocades and temple-border Kanchipuram pattu to lightweight Gadwal handlooms and traditional wedding panchas — curated with patience for every family milestone.
+                                </p>
+
+                                <!-- Featured Weaves Pill List -->
+                                <div class="flex flex-wrap gap-2 pt-2">
+                                    <span class="text-xs px-3 py-1 rounded-full bg-maroon-dark/80 border border-gold/40 text-gold-pale">Kanchi Pattu</span>
+                                    <span class="text-xs px-3 py-1 rounded-full bg-maroon-dark/80 border border-gold/40 text-gold-pale">Banaras Zari</span>
+                                    <span class="text-xs px-3 py-1 rounded-full bg-maroon-dark/80 border border-gold/40 text-gold-pale">Gadwal Kuttu</span>
+                                    <span class="text-xs px-3 py-1 rounded-full bg-maroon-dark/80 border border-gold/40 text-gold-pale">Dharmavaram</span>
+                                    <span class="text-xs px-3 py-1 rounded-full bg-maroon-dark/80 border border-gold/40 text-gold-pale">Meenakari Bridal</span>
+                                </div>
+                            </div>
+
+                            <div class="mt-7 pt-5 border-t border-gold/30 flex items-center justify-between text-xs sm:text-sm">
+                                <div>
+                                    <p class="text-gold-light font-semibold">General Bazaar, Secunderabad</p>
+                                    <p class="text-ivory/75 text-xs">Open Mon – Sun &bull; 10:30 AM – 9:00 PM</p>
+                                </div>
+                                <a href="#visit" class="w-10 h-10 rounded-full bg-gold text-maroon-dark flex items-center justify-center hover:bg-gold-light transition" title="Store Location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Collections Showcase -->
+    <section id="collections" class="py-16 sm:py-24 bg-ivory">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto space-y-3">
+                <span class="text-xs font-bold uppercase tracking-[0.2em] text-gold-dark">Curated Handloom Catalog</span>
+                <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-maroon">
+                    Signature Weaves &amp; Collections
+                </h2>
+                <p class="text-charcoal-muted text-sm sm:text-base">
+                    Browse our flagship weaves sourced directly from master weaver clusters across India. Click any collection to view weave specifications or request a live video showcase.
+                </p>
+                <!-- Ornamental Gold Divider -->
+                <div class="flex items-center justify-center gap-3 pt-2">
+                    <span class="h-[1px] w-16 bg-gold/60"></span>
+                    <span class="w-2.5 h-2.5 rotate-45 bg-gold"></span>
+                    <span class="h-[1px] w-16 bg-gold/60"></span>
+                </div>
+            </div>
+
+            <!-- Filter & Search Controls -->
+            <div class="mt-10 flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4 bg-white p-4 rounded-2xl border border-gold/30 shadow-sm">
+                <!-- Category Tabs -->
+                <div id="category-filters" class="flex flex-wrap gap-2" role="tablist">
+                    <button data-filter="all" class="filter-btn active px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-maroon text-ivory transition">
+                        All Collections
+                    </button>
+                    <button data-filter="silk" class="filter-btn px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-ivory text-charcoal hover:bg-gold-pale/70 transition">
+                        Silk Sarees
+                    </button>
+                    <button data-filter="bridal" class="filter-btn px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-ivory text-charcoal hover:bg-gold-pale/70 transition">
+                        Bridal &amp; Festive
+                    </button>
+                    <button data-filter="cotton" class="filter-btn px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-ivory text-charcoal hover:bg-gold-pale/70 transition">
+                        Cotton &amp; Everyday
+                    </button>
+                    <button data-filter="fabrics" class="filter-btn px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-ivory text-charcoal hover:bg-gold-pale/70 transition">
+                        Fabrics &amp; Menswear
+                    </button>
+                </div>
+
+                <!-- Search Input -->
+                <div class="relative min-w-[260px]">
+                    <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-charcoal-muted text-sm"></i>
+                    <input type="text" id="collection-search" placeholder="Search Kanchi, Banaras, Gadwal..." 
+                        class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-ivory border border-gold/40 text-sm text-charcoal placeholder:text-charcoal-muted/70 focus:outline-none focus:border-maroon">
+                </div>
+            </div>
+
+            <!-- Collections Grid (Populated via JS with bespoke woven SVG art cards) -->
+            <div id="collections-grid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                <!-- Cards injected dynamically -->
+            </div>
+
+            <!-- Empty Search State -->
+            <div id="no-results" class="hidden text-center py-12 bg-white rounded-2xl border border-gold/30 mt-8">
+                <p class="font-serif text-2xl text-maroon">No matching weaves found</p>
+                <p class="text-sm text-charcoal-muted mt-1">Try clearing your search or selecting "All Collections".</p>
+                <button id="reset-filters-btn" class="mt-4 px-5 py-2.5 rounded-xl bg-maroon text-ivory text-sm font-semibold">Reset Filters</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Heritage & Legacy (Since 1969) -->
+    <section id="heritage" class="py-16 sm:py-24 bg-maroon text-ivory relative overflow-hidden">
+        <!-- Subtle border accents -->
+        <div class="absolute inset-x-0 top-0 h-1.5 bg-gradient-to-r from-gold-dark via-gold-light to-gold-dark"></div>
+        <div class="absolute inset-x-0 bottom-0 h-1.5 bg-gradient-to-r from-gold-dark via-gold-light to-gold-dark"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <!-- Left Timeline & Milestones -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="rounded-2xl bg-maroon-dark/90 border border-gold/40 p-6 sm:p-8 space-y-6">
+                        <div class="flex items-center justify-between border-b border-gold/25 pb-4">
+                            <div>
+                                <span class="text-xs uppercase tracking-[0.2em] text-gold-light">Our Journey</span>
+                                <h3 class="font-serif text-2xl font-bold text-white mt-0.5">Milestones of Trust</h3>
+                            </div>
+                            <span class="font-serif text-3xl font-bold text-gold">1969</span>
+                        </div>
+
+                        <div class="space-y-5">
+                            <div class="flex gap-4">
+                                <div class="w-8 h-8 rounded-full bg-gold/20 border border-gold text-gold flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">01</div>
+                                <div>
+                                    <h4 class="font-serif text-lg font-semibold text-gold-pale">Founded in General Bazaar (1969)</h4>
+                                    <p class="text-xs sm:text-sm text-ivory/80 mt-1 leading-relaxed">
+                                        Established by Kotha Pentaiah &amp; Bodla Ramachandraiah with a commitment to pure handloom authenticity and transparent pricing in Secunderabad's historic textile hub.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-4">
+                                <div class="w-8 h-8 rounded-full bg-gold/20 border border-gold text-gold flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">02</div>
+                                <div>
+                                    <h4 class="font-serif text-lg font-semibold text-gold-pale">Multi-Generational Family Patronage</h4>
+                                    <p class="text-xs sm:text-sm text-ivory/80 mt-1 leading-relaxed">
+                                        Grandmothers who bought their wedding pattu sarees here in the 1970s now bring their granddaughters for bridal trousseaus and milestone festivities.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-4">
+                                <div class="w-8 h-8 rounded-full bg-gold/20 border border-gold text-gold flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">03</div>
+                                <div>
+                                    <h4 class="font-serif text-lg font-semibold text-gold-pale">Wholesale &amp; Retail Under One Roof</h4>
+                                    <p class="text-xs sm:text-sm text-ivory/80 mt-1 leading-relaxed">
+                                        Unmatched variety spanning bridal silks, everyday cottons, blouse fabrics, and panchas with patient, unhurried hospitality.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Editorial Narrative -->
+                <div class="lg:col-span-7 space-y-6">
+                    <span class="text-xs font-bold uppercase tracking-[0.2em] text-gold-light">The KPBR Heritage Story</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
+                        A Secunderabad Landmark Woven Into Family Memories
+                    </h2>
+                    <p class="text-ivory/90 text-base sm:text-lg leading-relaxed">
+                        For over five decades, <strong class="text-gold-light font-semibold">Kotha Pentaiah &amp; Bodla Ramachandraiah Banaras Silk Palace</strong> has stood as more than a textile showroom—it is a trusted family institution in the bustling heart of General Bazaar, Secunderabad.
+                    </p>
+                    <p class="text-ivory/80 text-sm sm:text-base leading-relaxed">
+                        We believe choosing a wedding saree or festive ensemble is an emotional milestone that deserves unhurried attention. Our seasoned staff and management take pride in patiently unfolding weave after weave—explaining zari purity, loom origin, and drape weight—so every family leaves with confidence and joy.
+                    </p>
+
+                    <!-- Highlights Strip -->
+                    <div class="grid sm:grid-cols-3 gap-4 pt-4">
+                        <div class="p-4 rounded-xl bg-maroon-dark/60 border border-gold/30">
+                            <i class="fa-solid fa-hand-holding-heart text-gold text-xl mb-2"></i>
+                            <h4 class="font-serif text-lg font-semibold text-white">Patient Guidance</h4>
+                            <p class="text-xs text-ivory/75 mt-1">Warm, personalized assistance tailored for entire wedding families.</p>
+                        </div>
+                        <div class="p-4 rounded-xl bg-maroon-dark/60 border border-gold/30">
+                            <i class="fa-solid fa-award text-gold text-xl mb-2"></i>
+                            <h4 class="font-serif text-lg font-semibold text-white">Silk Mark Assured</h4>
+                            <p class="text-xs text-ivory/75 mt-1">Certified pure mulberry &amp; katan silks sourced from master weavers.</p>
+                        </div>
+                        <div class="p-4 rounded-xl bg-maroon-dark/60 border border-gold/30">
+                            <i class="fa-solid fa-tags text-gold text-xl mb-2"></i>
+                            <h4 class="font-serif text-lg font-semibold text-white">Honest Pricing</h4>
+                            <p class="text-xs text-ivory/75 mt-1">Competitive wholesale &amp; retail rates across every budget tier.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services & Shopping Experience -->
+    <section id="services" class="py-16 sm:py-24 bg-ivory-dark/40 border-b border-gold/25">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-3">
+                <span class="text-xs font-bold uppercase tracking-[0.2em] text-gold-dark">Tailored Hospitality</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-maroon">
+                    Services &amp; Shopping Experience
+                </h2>
+                <p class="text-charcoal-muted text-sm sm:text-base">
+                    Whether you are curating an heirloom bridal trousseau in person or shopping from abroad via video call, we make every step effortless.
+                </p>
+            </div>
+
+            <div class="mt-12 grid md:grid-cols-2 gap-6 lg:gap-8">
+                <!-- Service 1: Bridal Trousseau -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 border border-gold/30 shadow-heritage flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-maroon-tint text-maroon flex items-center justify-center border border-gold/40 mb-5">
+                            <i class="fa-solid fa-crown text-xl"></i>
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-charcoal">Bridal Trousseau &amp; Wedding Curation</h3>
+                        <p class="text-sm text-charcoal-muted mt-2.5 leading-relaxed">
+                            Dedicated family seating and curated styling for Muhurtham pattu sarees, reception Banarasi brocades, engagement drapes, matching designer blouse fabrics, and coordinated groom/elder silk panchas.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gold/20 flex items-center justify-between">
+                        <span class="text-xs font-semibold text-gold-dark uppercase tracking-wider">In-Store Family Sessions</span>
+                        <a href="#booking" data-service="Wedding / Bridal Trousseau" class="quick-book-link text-sm font-semibold text-maroon hover:text-maroon-dark inline-flex items-center gap-1.5">
+                            Reserve Seating <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 2: Live Video Shopping -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 border border-gold/30 shadow-heritage flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-maroon-tint text-maroon flex items-center justify-center border border-gold/40 mb-5">
+                            <i class="fa-solid fa-video text-xl"></i>
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-charcoal">Live Video Shopping &amp; Virtual Walkthroughs</h3>
+                        <p class="text-sm text-charcoal-muted mt-2.5 leading-relaxed">
+                            Designed for NRI families and out-of-station patrons. Connect live with our senior weave specialists over WhatsApp Video to inspect pallu craftsmanship, drape fall, and natural daylight colors in real time.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gold/20 flex items-center justify-between">
+                        <span class="text-xs font-semibold text-gold-dark uppercase tracking-wider">Worldwide Shipping Available</span>
+                        <a href="#booking" data-service="Live Video Call Shopping" class="quick-book-link text-sm font-semibold text-maroon hover:text-maroon-dark inline-flex items-center gap-1.5">
+                            Schedule Video Call <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3: Wholesale & Bulk Gifting -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 border border-gold/30 shadow-heritage flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-maroon-tint text-maroon flex items-center justify-center border border-gold/40 mb-5">
+                            <i class="fa-solid fa-boxes-stacked text-xl"></i>
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-charcoal">Wholesale &amp; Bulk Wedding Gifting</h3>
+                        <p class="text-sm text-charcoal-muted mt-2.5 leading-relaxed">
+                            Direct-from-loom wholesale pricing for wedding Tambulam gifting, housewarming ceremonies, corporate festive hampers, and boutique resellers seeking bulk silk and cotton saree lots.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gold/20 flex items-center justify-between">
+                        <span class="text-xs font-semibold text-gold-dark uppercase tracking-wider">Special Bulk Slabs</span>
+                        <a href="#booking" data-service="Bulk Wedding Gifting / Wholesale" class="quick-book-link text-sm font-semibold text-maroon hover:text-maroon-dark inline-flex items-center gap-1.5">
+                            Request Bulk Quote <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 4: Iconic Seasonal Drops (Ashadham & Deepavali) -->
+                <div class="bg-gradient-to-br from-maroon to-maroon-dark text-ivory rounded-2xl p-6 sm:p-8 border border-gold shadow-heritage flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-3 py-1 rounded-full bg-gold text-maroon-dark text-xs font-bold uppercase tracking-wider">
+                                Iconic Annual Traditions
+                            </span>
+                            <i class="fa-solid fa-sparkles text-gold text-xl"></i>
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-white">Ashadham &amp; Deepavali Festive Drops</h3>
+                        <p class="text-sm text-ivory/85 mt-2 leading-relaxed">
+                            Every year, patrons eagerly await our grand <strong class="text-gold-light">Ashadham Special Offers</strong> and <strong class="text-gold-light">Deepavali New Arrivals</strong>—featuring freshly loomed Kanchi, Banaras, and Gadwal collections at celebratory value.
+                        </p>
+                    </div>
+                    <!-- Interactive Seasonal Alert Form -->
+                    <form id="seasonal-alert-form" class="mt-6 pt-4 border-t border-gold/30">
+                        <label for="alert-contact" class="block text-xs text-gold-pale font-medium mb-2">
+                            Get early WhatsApp/SMS alerts for Ashadham &amp; Deepavali drops:
+                        </label>
+                        <div class="flex flex-col sm:flex-row gap-2">
+                            <input type="text" id="alert-contact" required placeholder="Enter Mobile / WhatsApp Number"
+                                class="flex-1 px-3.5 py-2.5 rounded-xl bg-white/95 text-charcoal text-sm placeholder:text-charcoal-muted focus:outline-none">
+                            <button type="submit" class="px-4 py-2.5 rounded-xl bg-gold text-maroon-dark font-bold text-sm hover:bg-gold-light transition shrink-0">
+                                Notify Me
+                            </button>
+                        </div>
+                        <p id="alert-feedback" class="hidden text-xs text-gold-light mt-2 font-medium"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Bridal & Store Appointment Booking Section -->
+    <section id="booking" class="py-16 sm:py-24 bg-ivory">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-3xl border border-gold/40 shadow-heritage overflow-hidden">
+                <div class="bg-maroon px-6 py-8 sm:px-10 text-center text-ivory border-b border-gold/40">
+                    <span class="text-xs font-bold uppercase tracking-[0.2em] text-gold-light">Personalized Concierge</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1">
+                        Book an In-Store Visit or Live Video Call
+                    </h2>
+                    <p class="text-sm text-ivory/80 max-w-xl mx-auto mt-2">
+                        Let our team prepare a curated selection of weaves ahead of your arrival at General Bazaar or connect with you live over video.
+                    </p>
+                </div>
+
+                <form id="appointment-form" class="p-6 sm:p-10 space-y-6">
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <!-- Full Name -->
+                        <div>
+                            <label for="cust-name" class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Full Name *</label>
+                            <input type="text" id="cust-name" required placeholder="e.g., Sravani Reddy"
+                                class="w-full px-4 py-3 rounded-xl bg-ivory border border-gold/40 text-sm focus:outline-none focus:border-maroon">
+                        </div>
+
+                        <!-- Phone / WhatsApp -->
+                        <div>
+                            <label for="cust-phone" class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Phone / WhatsApp Number *</label>
+                            <input type="tel" id="cust-phone" required placeholder="e.g., +91 98490 XXXXX"
+                                class="w-full px-4 py-3 rounded-xl bg-ivory border border-gold/40 text-sm focus:outline-none focus:border-maroon">
+                        </div>
+
+                        <!-- Consultation Mode -->
+                        <div>
+                            <label for="consult-mode" class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Consultation Mode *</label>
+                            <select id="consult-mode" class="w-full px-4 py-3 rounded-xl bg-ivory border border-gold/40 text-sm focus:outline-none focus:border-maroon">
+                                <option value="In-Store Family Visit (General Bazaar)">In-Store Family Visit (General Bazaar, Secunderabad)</option>
+                                <option value="Live Video Call Shopping">Live Video Call Shopping (WhatsApp / Zoom)</option>
+                                <option value="Wholesale / Bulk Order Inquiry">Wholesale / Bulk Order Inquiry</option>
+                            </select>
+                        </div>
+
+                        <!-- Occasion -->
+                        <div>
+                            <label for="consult-occasion" class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Shopping Occasion *</label>
+                            <select id="consult-occasion" class="w-full px-4 py-3 rounded-xl bg-ivory border border-gold/40 text-sm focus:outline-none focus:border-maroon">
+                                <option value="Wedding / Bridal Trousseau">Wedding / Bridal Trousseau</option>
+                                <option value="Festive Celebration (Ashadham / Deepavali / Sankranti)">Festive Celebration (Ashadham / Deepavali / Sankranti)</option>
+                                <option value="Bulk Wedding Gifting / Tambulam">Bulk Wedding Gifting / Tambulam</option>
+                                <option value="General Silk & Cotton Shopping">General Silk &amp; Cotton Shopping</option>
+                            </select>
+                        </div>
+
+                        <!-- Preferred Date -->
+                        <div>
+                            <label for="consult-date" class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Preferred Date *</label>
+                            <input type="date" id="consult-date" required
+                                class="w-full px-4 py-3 rounded-xl bg-ivory border border-gold/40 text-sm focus:outline-none focus:border-maroon">
+                        </div>
+
+                        <!-- Preferred Time Slot -->
+                        <div>
+                            <label for="consult-slot" class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Preferred Time Slot</label>
+                            <select id="consult-slot" class="w-full px-4 py-3 rounded-xl bg-ivory border border-gold/40 text-sm focus:outline-none focus:border-maroon">
+                                <option value="Morning (11:00 AM – 1:30 PM)">Morning (11:00 AM – 1:30 PM)</option>
+                                <option value="Afternoon (2:30 PM – 5:30 PM)">Afternoon (2:30 PM – 5:30 PM)</option>
+                                <option value="Evening (5:30 PM – 8:30 PM)">Evening (5:30 PM – 8:30 PM)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Preferred Weaves Checkboxes -->
+                    <div>
+                        <span class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2.5">Preferred Weaves to Explore (Optional)</span>
+                        <div class="flex flex-wrap gap-2.5" id="weave-preferences">
+                            <label class="cursor-pointer inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-ivory border border-gold/40 text-xs sm:text-sm hover:bg-gold-pale/50 transition">
+                                <input type="checkbox" value="Kanchipuram Pattu" class="accent-maroon"> Kanchipuram Pattu
+                            </label>
+                            <label class="cursor-pointer inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-ivory border border-gold/40 text-xs sm:text-sm hover:bg-gold-pale/50 transition">
+                                <input type="checkbox" value="Banaras Silk" class="accent-maroon"> Banaras Silk
+                            </label>
+                            <label class="cursor-pointer inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-ivory border border-gold/40 text-xs sm:text-sm hover:bg-gold-pale/50 transition">
+                                <input type="checkbox" value="Gadwal & Narayanpet" class="accent-maroon"> Gadwal &amp; Narayanpet
+                            </label>
+                            <label class="cursor-pointer inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-ivory border border-gold/40 text-xs sm:text-sm hover:bg-gold-pale/50 transition">
+                                <input type="checkbox" value="Dharmavaram & Venkatagiri" class="accent-maroon"> Dharmavaram &amp; Venkatagiri
+                            </label>
+                            <label class="cursor-pointer inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-ivory border border-gold/40 text-xs sm:text-sm hover:bg-gold-pale/50 transition">
+                                <input type="checkbox" value="Meenakari & Vintage Butta" class="accent-maroon"> Meenakari &amp; Vintage Butta
+                            </label>
+                            <label class="cursor-pointer inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-ivory border border-gold/40 text-xs sm:text-sm hover:bg-gold-pale/50 transition">
+                                <input type="checkbox" value="Cotton Sarees & Dress Materials" class="accent-maroon"> Cotton &amp; Dress Materials
+                            </label>
+                            <label class="cursor-pointer inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-ivory border border-gold/40 text-xs sm:text-sm hover:bg-gold-pale/50 transition">
+                                <input type="checkbox" value="Panchas & Menswear" class="accent-maroon"> Panchas &amp; Menswear
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Additional Notes -->
+                    <div>
+                        <label for="consult-notes" class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Special Notes or Color Preferences</label>
+                        <textarea id="consult-notes" rows="2" placeholder="Tell us about your budget range, color palette, or number of family members visiting..."
+                            class="w-full px-4 py-3 rounded-xl bg-ivory border border-gold/40 text-sm focus:outline-none focus:border-maroon"></textarea>
+                    </div>
+
+                    <div class="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
+                        <p class="text-xs text-charcoal-muted">
+                            <i class="fa-solid fa-shield-halved text-gold-dark mr-1"></i> Zero obligation consultation. Our team confirms within 2 working hours.
+                        </p>
+                        <button type="submit" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-maroon text-ivory font-semibold hover:bg-maroon-dark border border-gold shadow-heritage transition">
+                            Confirm Appointment Request
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Instant Confirmation Banner (Hidden until submit) -->
+                <div id="booking-confirmation" class="hidden p-8 sm:p-10 bg-gold-pale/60 border-t border-gold text-center space-y-4">
+                    <div class="w-14 h-14 rounded-full bg-maroon text-gold mx-auto flex items-center justify-center text-2xl shadow">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <h3 class="font-serif text-2xl sm:text-3xl font-bold text-maroon">Namaskaram! Your Request is Registered</h3>
+                    <p id="confirmation-summary" class="text-sm sm:text-base text-charcoal max-w-xl mx-auto leading-relaxed"></p>
+                    <div class="pt-2">
+                        <button id="book-another-btn" class="px-5 py-2.5 rounded-xl bg-white border border-gold text-maroon text-sm font-semibold hover:bg-ivory transition">
+                            Submit Another Inquiry
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Location, Socials & Footer -->
+    <footer id="visit" class="bg-charcoal text-ivory pt-16 pb-10 border-t-4 border-gold">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-white/15">
+                <!-- Col 1: Brand & Heritage -->
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-maroon border border-gold flex items-center justify-center text-gold font-serif font-bold text-lg">
+                            K
+                        </div>
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-white leading-tight">
+                                Kotha Pentaiah &amp; Bodla Ramachandraiah
+                            </h3>
+                            <p class="text-xs uppercase tracking-[0.18em] text-gold">Banaras Silk Palace &bull; Est. 1969</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-ivory/75 leading-relaxed">
+                        A generational textile destination in Secunderabad offering Silk Mark certified bridal sarees, traditional handlooms, cottons, dress materials, and panchas at wholesale and retail prices.
+                    </p>
+                    <!-- Social Media Links -->
+                    <div class="pt-2">
+                        <p class="text-xs uppercase tracking-wider text-gold-light font-semibold mb-2.5">Follow New Arrivals &amp; Ashadham / Deepavali Offers:</p>
+                        <div class="flex flex-wrap gap-3">
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" 
+                               class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 hover:bg-maroon border border-gold/30 text-xs sm:text-sm text-white transition">
+                                <i class="fa-brands fa-instagram text-gold text-base"></i>
+                                <span>M/s. Kotha Pentaiah &amp; Bodla Ramachandraiah</span>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" 
+                               class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 hover:bg-maroon border border-gold/30 text-xs sm:text-sm text-white transition">
+                                <i class="fa-brands fa-facebook text-gold text-base"></i>
+                                <span>KPBR Official Facebook</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div class="lg:col-span-3 space-y-3">
+                    <h4 class="font-serif text-lg font-semibold text-gold">Explore KPBR</h4>
+                    <ul class="space-y-2.5 text-sm text-ivory/80">
+                        <li><a href="#collections" class="hover:text-gold transition">Kanchipuram &amp; Banaras Silks</a></li>
+                        <li><a href="#collections" class="hover:text-gold transition">Gadwal, Narayanpet &amp; Dharmavaram</a></li>
+                        <li><a href="#collections" class="hover:text-gold transition">Meenakari &amp; Bridal Collections</a></li>
+                        <li><a href="#collections" class="hover:text-gold transition">Cottons, Dress Materials &amp; Panchas</a></li>
+                        <li><a href="#heritage" class="hover:text-gold transition">Our Legacy Since 1969</a></li>
+                        <li><a href="#booking" class="hover:text-gold transition">Book Bridal / Video Consultation</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Store Address & Hours -->
+                <div class="lg:col-span-4 space-y-4">
+                    <h4 class="font-serif text-lg font-semibold text-gold">Visit Our Flagship Showroom</h4>
+                    <div class="p-4 rounded-2xl bg-white/5 border border-gold/25 space-y-3 text-sm">
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot text-gold mt-1"></i>
+                            <div>
+                                <p class="font-semibold text-white">M/s. Kotha Pentaiah &amp; Bodla Ramachandraiah Banaras Silk Palace (KPBR)</p>
+                                <p class="text-ivory/75 mt-0.5">General Bazaar, Kalasiguda, Secunderabad, Telangana 500003</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fa-regular fa-clock text-gold mt-1"></i>
+                            <div>
+                                <p class="font-semibold text-white">Store Hours</p>
+                                <p class="text-ivory/75">Monday – Sunday: 10:30 AM – 9:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="pt-1 flex flex-wrap gap-2">
+                            <a href="https://maps.google.com/?q=General+Bazaar+Secunderabad" target="_blank" rel="noopener noreferrer"
+                               class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gold text-maroon-dark font-bold text-xs hover:bg-gold-light transition">
+                                <i class="fa-solid fa-diamond-turn-right"></i> Open in Google Maps
+                            </a>
+                            <button id="copy-address-btn" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 text-ivory text-xs font-semibold hover:bg-white/20 transition">
+                                <i class="fa-regular fa-copy"></i> <span id="copy-address-text">Copy Address</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright Bottom Row -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-ivory/60">
+                <p>&copy; <span id="current-year">2026</span> M/s. Kotha Pentaiah &amp; Bodla Ramachandraiah Banaras Silk Palace (KPBR). All Rights Reserved.</p>
+                <p class="text-gold/80">Serving Secunderabad &amp; Hyderabad Families Since 1969</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Weave Details & Quick Inquiry Modal -->
+    <div id="weave-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-charcoal/75 backdrop-blur-sm">
+        <div class="bg-ivory rounded-3xl max-w-2xl w-full border-2 border-gold shadow-2xl overflow-hidden animate-[fadeIn_0.2s_ease-out]">
+            <!-- Modal Top Banner -->
+            <div id="modal-art-header" class="h-36 sm:h-44 relative flex items-end p-6 bg-maroon text-ivory overflow-hidden">
+                <!-- Dynamic SVG weave pattern injected here -->
+                <div id="modal-svg-container" class="absolute inset-0 opacity-35"></div>
+                <button id="close-modal-btn" aria-label="Close Modal" class="absolute top-4 right-4 w-10 h-10 rounded-full bg-charcoal/60 text-white hover:bg-charcoal flex items-center justify-center transition">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
+                <div class="relative z-10">
+                    <span id="modal-origin" class="inline-block px-3 py-1 rounded-full bg-gold text-maroon-dark text-xs font-bold uppercase tracking-wider mb-2"></span>
+                    <h3 id="modal-title" class="font-serif text-2xl sm:text-3xl font-bold text-white leading-tight"></h3>
+                </div>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="p-6 sm:p-8 space-y-5 max-h-[75vh] overflow-y-auto">
+                <p id="modal-desc" class="text-sm sm:text-base text-charcoal leading-relaxed"></p>
+
+                <div class="grid sm:grid-cols-2 gap-4 bg-white p-4 rounded-2xl border border-gold/30">
+                    <div>
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-gold-dark block">Craft &amp; Zari Highlights</span>
+                        <p id="modal-craft" class="text-sm text-charcoal font-medium mt-1"></p>
+                    </div>
+                    <div>
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-gold-dark block">Ideal Occasions</span>
+                        <p id="modal-occasion" class="text-sm text-charcoal font-medium mt-1"></p>
+                    </div>
+                    <div>
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-gold-dark block">Certification &amp; Pricing</span>
+                        <p id="modal-cert" class="text-sm text-charcoal font-medium mt-1"></p>
+                    </div>
+                    <div>
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-gold-dark block">Heirloom Care</span>
+                        <p id="modal-care" class="text-sm text-charcoal font-medium mt-1"></p>
+                    </div>
+                </div>
+
+                <!-- Action Buttons inside Modal -->
+                <div class="flex flex-col sm:flex-row gap-3 pt-2">
+                    <button id="modal-book-btn" class="flex-1 px-5 py-3.5 rounded-xl bg-maroon text-ivory font-semibold text-sm hover:bg-maroon-dark border border-gold transition flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-video text-gold-light"></i>
+                        <span>Request Live Video Showcase</span>
+                    </button>
+                    <button id="modal-store-btn" class="flex-1 px-5 py-3.5 rounded-xl bg-gold-pale text-maroon font-semibold text-sm hover:bg-gold/40 border border-gold transition flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-store"></i>
+                        <span>Reserve for Store Visit</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Curated Heritage Collections Data with Bespoke SVG Weave Swatches
+        const collectionsData = [
+            {
+                id: 'kanchi-pattu',
+                title: 'Kanchipuram (Kanchi Pattu) Bridal Silks',
+                origin: 'Kanchipuram, Tamil Nadu',
+                categories: ['silk', 'bridal'],
+                badge: 'Silk Mark Certified',
+                shortDesc: 'Heavy pure mulberry silk drapes featuring iconic Korvai contrast borders, temple gopuram motifs, and rich gold zari pallus.',
+                fullDesc: 'Our flagship Kanchipuram pattu vault showcases handwoven pure mulberry silk sarees celebrated across South Indian weddings. Featuring interlocking Korvai borders, rudraksha and annapakshi motifs, and lustrous pure zari work built to become family heirlooms.',
+                craft: 'Pure Mulberry Silk, Korvai Temple Borders, 3-Ply Zari Weave',
+                occasion: 'Muhurtham, Bridal Trousseau, Engagement & Milestone Rituals',
+                certification: '100% Silk Mark Certified • Wholesale & Retail Slabs',
+                care: 'Dry clean only. Refold every 3 months and store wrapped in pure unbleached muslin cloth.',
+                palette: { bg: '#5C1626', accent: '#D4AF37', secondary: '#8E243B' },
+                patternType: 'temple'
+            },
+            {
+                id: 'banaras-silk',
+                title: 'Authentic Banaras Silk Sarees',
+                origin: 'Varanasi (Banaras), Uttar Pradesh',
+                categories: ['silk', 'bridal'],
+                badge: 'Signature Heritage',
+                shortDesc: 'Lustrous Katan silk sarees adorned with intricate Jangla floral brocades, Shikargah storytelling weaves, and Kadwa zari.',
+                fullDesc: 'Paying homage to our namesake "Banaras Silk Palace", our Varanasi collection brings together sumptuous Katan silks, flowing Khaddi georgettes, and richly textured Kadwa zari brocades favored for wedding receptions and grand festivities.',
+                craft: 'Pure Katan Silk, Handloom Kadwa Brocade, Jangla & Shikargah Motifs',
+                occasion: 'Wedding Receptions, Sangeet, Deepavali & Grand Celebrations',
+                certification: '100% Silk Mark Certified • Direct Weaver Sourcing',
+                care: 'Professional dry clean only. Avoid direct perfume spray on zari threads.',
+                palette: { bg: '#7A1C32', accent: '#E5C158', secondary: '#450E1B' },
+                patternType: 'brocade'
+            },
+            {
+                id: 'gadwal-narayanpet',
+                title: 'Gadwal & Narayanpet Handlooms',
+                origin: 'Telangana Handloom Heritage',
+                categories: ['silk', 'cotton'],
+                badge: 'Telangana Pride',
+                shortDesc: 'Celebrated Telangana weaves known for feather-light bodies, Kuttu interlocked silk borders, and timeless temple checks.',
+                fullDesc: 'Sourced from master weaver clusters of Telangana, our Gadwal sarees pair airy, breathable bodies with richly contrasting silk Kuttu borders, alongside authentic Narayanpet handlooms treasured for traditional ceremonies and graceful comfort.',
+                craft: 'Traditional Kuttu Interlocking Border, Cotton-Silk & Pure Silk Variants',
+                occasion: 'Poojas, Temple Visits, Festive Gatherings & Traditional Gifting',
+                certification: 'Authentic Handloom • Competitive Wholesale & Retail Rates',
+                care: 'First wash dry clean recommended; gentle hand wash in cold water for cotton variants.',
+                palette: { bg: '#2C4A3E', accent: '#D4AF37', secondary: '#1B3027' },
+                patternType: 'checks'
+            },
+            {
+                id: 'dharmavaram-venkatagiri',
+                title: 'Dharmavaram & Venkatagiri Silks',
+                origin: 'Andhra Pradesh Clusters',
+                categories: ['silk', 'bridal'],
+                badge: 'Festive Favorite',
+                shortDesc: 'Regal muted-gold Dharmavaram bridal weaves paired with gossamer-light Venkatagiri Jamdani zari sarees.',
+                fullDesc: 'From grand Dharmavaram pattu sarees with broad solid-gold borders and vibrant contrast pallus to whisper-soft Venkatagiri weaves featuring delicate Jamdani floral buttas, this collection balances grandeur with effortless all-day wearability.',
+                craft: 'Broad Contrast Zari Borders, Fine Jamdani Buttas, Dual-Tone Shot Silk',
+                occasion: 'Weddings, Ashadham & Sankranti Festivities, Family Functions',
+                certification: '100% Silk Mark Certified • Wide Color Spectrum',
+                care: 'Dry clean only. Store away from direct sunlight in breathable fabric covers.',
+                palette: { bg: '#8C3B19', accent: '#F0C75E', secondary: '#59230D' },
+                patternType: 'butta'
+            },
+            {
+                id: 'meenakari-vintage',
+                title: 'Heavy Meenakari & Vintage Butta Bridal Editions',
+                origin: 'Master Artisan Exclusive',
+                categories: ['bridal', 'silk'],
+                badge: 'Heirloom Edition',
+                shortDesc: 'Jewel-toned resham threadwork inlaid over gold zari brocades, accompanied by heirloom vintage coin & paisley buttas.',
+                fullDesc: 'Curated for brides seeking distinct artistry, our Meenakari bridal editions feature vibrant multi-colored silk thread inlays woven seamlessly into heavy gold and silver zari motifs, alongside classic vintage mango and lotus butta drapes.',
+                craft: 'Multi-Hued Resham Meenakari Inlay, Antique Gold Zari, Vintage Buttas',
+                occasion: 'Bridal Muhurtham, Reception & Milestone Anniversaries',
+                certification: '100% Silk Mark Certified • Limited Curated Pieces',
+                care: 'Dry clean only. Store folded with acid-free tissue between zari layers.',
+                palette: { bg: '#4A1942', accent: '#E6BE6A', secondary: '#2D0E28' },
+                patternType: 'meenakari'
+            },
+            {
+                id: 'cotton-dress-materials',
+                title: 'Pure Cotton Sarees, Dress Materials & Blouse Pieces',
+                origin: 'Pan-India Handloom & Designer',
+                categories: ['cotton', 'fabrics'],
+                badge: 'Everyday & Custom',
+                shortDesc: 'Crisp Mangalagiri & Bengal cotton sarees, unstitched designer salwar suits, and matching brocade & raw-silk blouse pieces.',
+                fullDesc: 'Beyond bridal silks, KPBR is a one-stop family destination for breathable pure cotton sarees, elegant unstitched designer dress materials, and an expansive wall of matching silk, Kalamkari, and zari brocade blouse pieces.',
+                craft: '100% Combed Handloom Cotton, Unstitched Chanderi/Silk Suits, Brocade Blouses',
+                occasion: 'Daily Wear, Office Elegance, Festive Suits & Custom Saree Matching',
+                certification: 'Guaranteed Fast Colors • Retail & Bulk Gifting Rates',
+                care: 'Gentle cold wash with mild detergent for cottons; dry clean for silk dress materials.',
+                palette: { bg: '#1F4E5F', accent: '#DFC388', secondary: '#13323E' },
+                patternType: 'stripes'
+            },
+            {
+                id: 'panchas-menswear',
+                title: 'Traditional Panchas & Festive Menswear',
+                origin: 'South Indian Traditional',
+                categories: ['fabrics', 'bridal'],
+                badge: 'Groom & Ceremonial',
+                shortDesc: 'Pure mulberry silk and fine cotton dhotis/panchas with auspicious gold zari borders and matching angavastrams.',
+                fullDesc: 'Complete the wedding ensemble with our authentic collection of pure silk wedding panchas, single and double dhotis with intricate zari borders, angavastram sets, and fine cotton panchas for grooms, fathers, and religious ceremonies.',
+                craft: 'Pure Silk & Mercerized Cotton, Traditional Gold Zari Borders, Angavastram Sets',
+                occasion: 'Weddings, Upanayanam, Gruhapravesam & Temple Rituals',
+                certification: 'Silk Mark Certified Silk Panchas • Coordinated Bridal Matching',
+                care: 'Dry clean pure silk panchas; gentle hand wash for pure cotton dhotis.',
+                palette: { bg: '#7A5C29', accent: '#FAF0D7', secondary: '#523C18' },
+                patternType: 'pancha'
+            }
+        ];
+
+        // Generate bespoke SVG weave pattern artwork for each card & modal
+        function createWeaveSVG(type, palette) {
+            const { bg, accent, secondary } = palette;
+            let motif = '';
+
+            if (type === 'temple') {
+                motif = `
+                    <path d="M0 110 L20 75 L40 110 L60 75 L80 110 L100 75 L120 110 L140 75 L160 110 L180 75 L200 110 L220 75 L240 110 L260 75 L280 110 L300 75 L320 110 L340 75 L360 110 L380 75 L400 110 Z" fill="${accent}" fill-opacity="0.28"/>
+                    <circle cx="60" cy="42" r="10" stroke="${accent}" stroke-width="1.5" fill="none"/>
+                    <circle cx="140" cy="42" r="10" stroke="${accent}" stroke-width="1.5" fill="none"/>
+                    <circle cx="220" cy="42" r="10" stroke="${accent}" stroke-width="1.5" fill="none"/>
+                    <circle cx="300" cy="42" r="10" stroke="${accent}" stroke-width="1.5" fill="none"/>
+                `;
+            } else if (type === 'brocade') {
+                motif = `
+                    <g stroke="${accent}" stroke-width="1.3" fill="none" opacity="0.45">
+                        <path d="M40 20 Q70 50 40 80 Q10 50 40 20 Z"/>
+                        <path d="M120 20 Q150 50 120 80 Q90 50 120 20 Z"/>
+                        <path d="M200 20 Q230 50 200 80 Q170 50 200 20 Z"/>
+                        <path d="M280 20 Q310 50 280 80 Q250 50 280 20 Z"/>
+                        <path d="M360 20 Q390 50 360 80 Q330 50 360 20 Z"/>
+                    </g>
+                `;
+            } else if (type === 'checks') {
+                motif = `
+                    <g stroke="${accent}" stroke-width="1" opacity="0.35">
+                        <line x1="0" y1="25" x2="400" y2="25"/><line x1="0" y1="50" x2="400" y2="50"/><line x1="0" y1="75" x2="400" y2="75"/>
+                        <line x1="50" y1="0" x2="50" y2="120"/><line x1="100" y1="0" x2="100" y2="120"/><line x1="150" y1="0" x2="150" y2="120"/>
+                        <line x1="200" y1="0" x2="200" y2="120"/><line x1="250" y1="0" x2="250" y2="120"/><line x1="300" y1="0" x2="300" y2="120"/>
+                    </g>
+                `;
+            } else if (type === 'butta' || type === 'meenakari') {
+                motif = `
+                    <g fill="${accent}" opacity="0.4">
+                        <path d="M60 30 L68 45 L60 60 L52 45 Z"/><path d="M140 30 L148 45 L140 60 L132 45 Z"/>
+                        <path d="M220 30 L228 45 L220 60 L212 45 Z"/><path d="M300 30 L308 45 L300 60 L292 45 Z"/>
+                        <circle cx="100" cy="70" r="5"/><circle cx="180" cy="70" r="5"/><circle cx="260" cy="70" r="5"/>
+                    </g>
+                `;
+            } else {
+                motif = `
+                    <g stroke="${accent}" stroke-width="2" opacity="0.45">
+                        <line x1="0" y1="88" x2="400" y2="88"/>
+                        <line x1="0" y1="95" x2="400" y2="95" stroke-dasharray="6 4"/>
+                        <line x1="0" y1="102" x2="400" y2="102"/>
+                    </g>
+                `;
+            }
+
+            return `
+                <svg viewBox="0 0 400 120" preserveAspectRatio="none" class="w-full h-full">
+                    <defs>
+                        <linearGradient id="grad-${type}" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="${bg}"/>
+                            <stop offset="100%" stop-color="${secondary}"/>
+                        </linearGradient>
+                    </defs>
+                    <rect width="400" height="120" fill="url(#grad-${type})"/>
+                    <rect x="0" y="0" width="400" height="8" fill="${accent}" fill-opacity="0.5"/>
+                    <rect x="0" y="112" width="400" height="8" fill="${accent}" fill-opacity="0.65"/>
+                    ${motif}
+                </svg>
+            `;
+        }
+
+        // DOM Elements
+        const collectionsGrid = document.getElementById('collections-grid');
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const searchInput = document.getElementById('collection-search');
+        const noResultsDiv = document.getElementById('no-results');
+        const resetFiltersBtn = document.getElementById('reset-filters-btn');
+
+        let activeFilter = 'all';
+        let searchQuery = '';
+
+        // Render Collections Cards
+        function renderCollections() {
+            const filtered = collectionsData.filter(item => {
+                const matchesCategory = activeFilter === 'all' || item.categories.includes(activeFilter);
+                const q = searchQuery.toLowerCase().trim();
+                const matchesSearch = !q ||
+                    item.title.toLowerCase().includes(q) ||
+                    item.origin.toLowerCase().includes(q) ||
+                    item.shortDesc.toLowerCase().includes(q) ||
+                    item.craft.toLowerCase().includes(q);
+                return matchesCategory && matchesSearch;
+            });
+
+            collectionsGrid.innerHTML = '';
+
+            if (filtered.length === 0) {
+                noResultsDiv.classList.remove('hidden');
+                return;
+            } else {
+                noResultsDiv.classList.add('hidden');
+            }
+
+            filtered.forEach(item => {
+                const card = document.createElement('article');
+                card.className = 'group bg-white rounded-2xl border border-gold/35 shadow-heritage overflow-hidden flex flex-col justify-between hover:-translate-y-1 transition-all duration-300';
+
+                card.innerHTML = `
+                    <div>
+                        <!-- Bespoke Woven Swatch Banner -->
+                        <div class="relative h-32 w-full overflow-hidden">
+                            ${createWeaveSVG(item.patternType, item.palette)}
+                            <div class="absolute top-3 left-3">
+                                <span class="px-3 py-1 rounded-full bg-ivory/95 text-maroon text-[11px] font-bold tracking-wide shadow-sm border border-gold/40">
+                                    ${item.badge}
+                                </span>
+                            </div>
+                            <div class="absolute bottom-2.5 left-3 right-3 flex items-center justify-between">
+                                <span class="text-[11px] font-medium text-gold-pale bg-charcoal/60 backdrop-blur-xs px-2.5 py-0.5 rounded-md">
+                                    <i class="fa-solid fa-location-pin text-gold mr-1"></i>${item.origin}
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Card Text Body -->
+                        <div class="p-6">
+                            <h3 class="font-serif text-xl sm:text-2xl font-bold text-charcoal group-hover:text-maroon transition leading-snug">
+                                ${item.title}
+                            </h3>
+                            <p class="text-sm text-charcoal-muted mt-2.5 leading-relaxed">
+                                ${item.shortDesc}
+                            </p>
+                            <div class="mt-4 pt-3 border-t border-gold/20">
+                                <p class="text-xs text-charcoal font-medium">
+                                    <span class="text-gold-dark font-bold uppercase tracking-wider mr-1">Highlights:</span>
+                                    ${item.craft}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card Footer Actions -->
+                    <div class="px-6 pb-6 pt-1 flex items-center gap-2.5">
+                        <button data-id="${item.id}" class="view-details-btn flex-1 px-4 py-2.5 rounded-xl bg-maroon text-ivory text-xs sm:text-sm font-semibold hover:bg-maroon-dark border border-gold/50 transition">
+                            Inquire / View Details
+                        </button>
+                        <button data-title="${item.title}" class="direct-video-btn px-3.5 py-2.5 rounded-xl bg-gold-pale text-maroon hover:bg-gold/40 border border-gold/50 transition" title="Request Video Call for this Weave">
+                            <i class="fa-solid fa-video"></i>
+                        </button>
+                    </div>
+                `;
+
+                collectionsGrid.appendChild(card);
+            });
+
+            // Attach modal listeners
+            document.querySelectorAll('.view-details-btn').forEach(btn => {
+                btn.addEventListener('click', () => openWeaveModal(btn.dataset.id));
+            });
+
+            document.querySelectorAll('.direct-video-btn').forEach(btn => {
+                btn.addEventListener('click', () => prefillBookingAndScroll(btn.dataset.title, 'Live Video Call Shopping'));
+            });
+        }
+
+        // Category Filter Clicks
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterButtons.forEach(b => {
+                    b.classList.remove('bg-maroon', 'text-ivory');
+                    b.classList.add('bg-ivory', 'text-charcoal');
+                });
+                btn.classList.remove('bg-ivory', 'text-charcoal');
+                btn.classList.add('bg-maroon', 'text-ivory');
+                activeFilter = btn.dataset.filter;
+                renderCollections();
+            });
+        });
+
+        // Search Input
+        searchInput.addEventListener('input', (e) => {
+            searchQuery = e.target.value;
+            renderCollections();
+        });
+
+        resetFiltersBtn.addEventListener('click', () => {
+            activeFilter = 'all';
+            searchQuery = '';
+            searchInput.value = '';
+            filterButtons[0].click();
+        });
+
+        // Modal Logic
+        const weaveModal = document.getElementById('weave-modal');
+        const closeModalBtn = document.getElementById('close-modal-btn');
+        let currentModalItem = null;
+
+        function openWeaveModal(id) {
+            const item = collectionsData.find(c => c.id === id);
+            if (!item) return;
+            currentModalItem = item;
+
+            document.getElementById('modal-origin').textContent = item.origin;
+            document.getElementById('modal-title').textContent = item.title;
+            document.getElementById('modal-desc').textContent = item.fullDesc;
+            document.getElementById('modal-craft').textContent = item.craft;
+            document.getElementById('modal-occasion').textContent = item.occasion;
+            document.getElementById('modal-cert').textContent = item.certification;
+            document.getElementById('modal-care').textContent = item.care;
+            document.getElementById('modal-svg-container').innerHTML = createWeaveSVG(item.patternType, item.palette);
+
+            weaveModal.classList.remove('hidden');
+            weaveModal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeWeaveModal() {
+            weaveModal.classList.add('hidden');
+            weaveModal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+
+        closeModalBtn.addEventListener('click', closeWeaveModal);
+        weaveModal.addEventListener('click', (e) => {
+            if (e.target === weaveModal) closeWeaveModal();
+        });
+
+        document.getElementById('modal-book-btn').addEventListener('click', () => {
+            if (currentModalItem) {
+                const title = currentModalItem.title;
+                closeWeaveModal();
+                prefillBookingAndScroll(title, 'Live Video Call Shopping');
+            }
+        });
+
+        document.getElementById('modal-store-btn').addEventListener('click', () => {
+            if (currentModalItem) {
+                const title = currentModalItem.title;
+                closeWeaveModal();
+                prefillBookingAndScroll(title, 'In-Store Family Visit (General Bazaar)');
+            }
+        });
+
+        // Helper: Prefill booking form & scroll smoothly
+        function prefillBookingAndScroll(weaveTitle, mode) {
+            const bookingSection = document.getElementById('booking');
+            const modeSelect = document.getElementById('consult-mode');
+            const notesInput = document.getElementById('consult-notes');
+
+            if (modeSelect) modeSelect.value = mode;
+            if (notesInput) {
+                notesInput.value = `Interested in viewing: ${weaveTitle}. `;
+            }
+            bookingSection.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Quick Book links from Services section
+        document.querySelectorAll('.quick-book-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const serviceType = link.dataset.service;
+                const modeSelect = document.getElementById('consult-mode');
+                if (serviceType.includes('Video')) {
+                    modeSelect.value = 'Live Video Call Shopping';
+                } else if (serviceType.includes('Bulk')) {
+                    modeSelect.value = 'Wholesale / Bulk Order Inquiry';
+                } else {
+                    modeSelect.value = 'In-Store Family Visit (General Bazaar)';
+                }
+                document.getElementById('booking').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        // Appointment Form Submission
+        const appointmentForm = document.getElementById('appointment-form');
+        const bookingConfirmation = document.getElementById('booking-confirmation');
+        const confirmationSummary = document.getElementById('confirmation-summary');
+        const bookAnotherBtn = document.getElementById('book-another-btn');
+
+        // Set min date for appointment date picker to today
+        const dateInput = document.getElementById('consult-date');
+        if (dateInput) {
+            const today = new Date().toISOString().split('T')[0];
+            dateInput.setAttribute('min', today);
+            dateInput.value = today;
+        }
+
+        appointmentForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('cust-name').value.trim();
+            const phone = document.getElementById('cust-phone').value.trim();
+            const mode = document.getElementById('consult-mode').value;
+            const occasion = document.getElementById('consult-occasion').value;
+            const date = document.getElementById('consult-date').value;
+            const slot = document.getElementById('consult-slot').value;
+
+            const checkedWeaves = Array.from(document.querySelectorAll('#weave-preferences input:checked'))
+                .map(cb => cb.value);
+
+            const weaveText = checkedWeaves.length > 0
+                ? ` for <strong>${checkedWeaves.join(', ')}</strong>`
+                : '';
+
+            confirmationSummary.innerHTML = `
+                Thank you, <strong>${name}</strong>. We have logged your <strong>${mode}</strong> request for <strong>${occasion}</strong>${weaveText} on <strong>${date}</strong> (${slot}). Our Secunderabad concierge team will reach out to <strong>${phone}</strong> shortly to confirm.
+            `;
+
+            appointmentForm.classList.add('hidden');
+            bookingConfirmation.classList.remove('hidden');
+        });
+
+        bookAnotherBtn.addEventListener('click', () => {
+            appointmentForm.reset();
+            bookingConfirmation.classList.add('hidden');
+            appointmentForm.classList.remove('hidden');
+        });
+
+        // Seasonal Alert Form (Ashadham & Deepavali)
+        const seasonalForm = document.getElementById('seasonal-alert-form');
+        const alertFeedback = document.getElementById('alert-feedback');
+        seasonalForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const contact = document.getElementById('alert-contact').value.trim();
+            if (!contact) return;
+            alertFeedback.textContent = `Registered (${contact})! You will receive priority updates for our Ashadham & Deepavali collections.`;
+            alertFeedback.classList.remove('hidden');
+            document.getElementById('alert-contact').value = '';
+        });
+
+        // Copy Address Utility (using execCommand fallback for iFrame safety)
+        const copyAddressBtn = document.getElementById('copy-address-btn');
+        const copyAddressText = document.getElementById('copy-address-text');
+        copyAddressBtn.addEventListener('click', () => {
+            const address = 'M/s. Kotha Pentaiah & Bodla Ramachandraiah Banaras Silk Palace (KPBR), General Bazaar, Secunderabad, Telangana 500003';
+            const tempInput = document.createElement('textarea');
+            tempInput.value = address;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            try {
+                document.execCommand('copy');
+                copyAddressText.textContent = 'Address Copied!';
+                setTimeout(() => {
+                    copyAddressText.textContent = 'Copy Address';
+                }, 2500);
+            } catch (err) {
+                copyAddressText.textContent = 'General Bazaar, Secunderabad';
+            }
+            document.body.removeChild(tempInput);
+        });
+
+        // Mobile Navigation Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Initialize catalog on load
+        renderCollections();
+    </script>
+</body>
+</html>
